@@ -1,38 +1,7 @@
 
 # Overview
 
-This guide provides the instructions to build custom application for the data agents you have already built in your Snowflake account. The LLM orchestration, planning, thinking, deep reasoning, and execution of SQL queries, etc. (similar to [ai.snowflake.com](ai.snowflake.com)) is powered by [Snowflake Cortex Agents](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents) via the [REST API](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-rest-api) and the interface is built with TypeScript and Material-UI.
-
-Use this as a starter project or template and extend or customize it. Also note that agents can make mistakes, so double-check responses.
-
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Setup Steps](#setup-steps)
-    - [1. Clone Repo](#1-clone-repo)
-    - [2. Install Dependencies](#2-install-dependencies)
-    - [3. Configure Environment Variables](#3-configure-environment-variables)
-- [Launch Application](#launch-application)
-    - [Demo](#demo)
-    - [Usage](#usage)
-    - [Implemented Features](#implemented-features)
-    - [Future Enhancements](#future-enhancements)
-    - [Common Issues](#common-issues)
-- [Optimized Build](#optimized-build)
-- [Deploy To Snowpark Container Services](#deploy-to-snowpark-container-services)
-- [Questions](#questions)
-
----
-
-## Prerequisites
-
-- **Node.js** >= 18.0.0
-- **npm** >= 9.0.0
-- **Snowflake Account** 
-    - With ACCOUNTADMIN role 
-    - Personal Access Token (PAT) created for authentication
-    - Access to Snowflake Intelligence and at least one Agent
-
-        NOTE: If you have not created an agent or do not have access to one, follow this [step-by-step guide](https://quickstarts.snowflake.com/guide/getting-started-with-snowflake-intelligence/index.html#0). You can then use the same account and interact with that agent in this application.
+This is a Data-Quality app , powered by Snowflake
 
 ## Setup Steps
 
@@ -157,9 +126,7 @@ NOTE: If you get `SecurityError: Cannot initialize local storage without a '--lo
 
 If all goes well, the application will automatically launch on [http://localhost:3000](http://localhost:3000) in a browser window.
 
-### Demo
 
-https://github.com/user-attachments/assets/03cdaf49-51aa-4f8b-8bf8-26310249f169
 
 ### Usage 
 
@@ -265,10 +232,3 @@ REACT_APP_BACKEND_URL=https://api.railway.app npm run build
 REACT_APP_BACKEND_URL=https://my-function.vercel.app npm run build
 ```
 
-## Deploy To Snowpark Container Services
-
-If you'd like to deploy this app to Snowpark Container Services in your account, [follow the instructions outlined here](spcs/README.md).
-
-## Questions
-
-If you have any questions, comments or feedback, please reach out to [Dash DesAI](https://www.linkedin.com/in/dash-desai/).
