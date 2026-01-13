@@ -1,7 +1,7 @@
 {
-  "name": "dash-desai",
+  "name": "nikita",
   "version": "1.0.0",
-  "description": "Custom application for the data agents powered by Snowflake Cortex Agents REST API built with TypeScript and Material-UI.",
+  "description": "Data Quality powered by Snowflake Cortex Agents REST API built with TypeScript and Material-UI.",
   "private": true,
   "engines": {
     "node": ">=18.0.0",
